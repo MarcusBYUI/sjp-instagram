@@ -1,0 +1,101 @@
+body {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 20px 0;
+}
+
+header img {
+    width: 50px;
+}
+
+main {
+    margin: 20px 0;
+}
+
+.info {
+    max-width: 650px;
+    margin: 0 auto;
+    /* to center the content of the info box */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info>img {
+    width: 150px;
+    object-fit: contain;
+}
+
+.info>div {
+    max-width: 450px;
+}
+
+.profile {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.profile h3 {
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+
+/* //this applies to the two blue buttons */
+
+.profile button {
+    border-radius: 5px;
+    background: #00A3FF;
+    border: none;
+    cursor: pointer;
+    padding: 8px 25px;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+
+/* //The dropdpown button after the folllow button specificaly */
+
+.profile> :last-child {
+    padding: 8px 10px;
+}
+
+.profile button img {
+    width: 10px;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 350px;
+}
+
+.bio {
+    color: #000000;
+    font-size: 14px;
+    margin: 0;
+}
+
+.posts {
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.posts img {
+    width: 100%;
+}
